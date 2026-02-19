@@ -1,12 +1,16 @@
 {
-  "start_url": "https://support.heimdalsecurity.com/hc/en-us/sections/201725849-Releases?page=1#articles",
-  "max_depth": 2,
+  "start_url": "https://example.com",
+  "max_depth": 3,
   "file_types": "all",
-  "blocked_paths": [],
-  "allowed_external_domains": [],
-  "allowed_url_prefixes": [
-    "https://support.heimdalsecurity.com/hc/en-us/sections/201725849-Releases",
-    "https://support.heimdalsecurity.com/hc/en-us/articles/"
+  "blocked_paths": [
+    "https://example.com/blocked-path"
   ],
-  "run_mode": "full_run"
+  "allowed_external_domains": [
+    "https://external-site.com"
+  ],
+  "allowed_url_prefixes": [
+    "https://example.com/section/",
+    "https://example.com/articles/"
+  ],
+  "run_mode": "dry_run"
 }
