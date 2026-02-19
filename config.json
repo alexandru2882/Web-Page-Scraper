@@ -1,0 +1,12 @@
+{
+  "start_url": "https://support.heimdalsecurity.com/hc/en-us/sections/201725849-Releases?page=1#articles",
+  "max_depth": 2,
+  "file_types": "all",
+  "blocked_paths": [],
+  "allowed_external_domains": [],
+  "allowed_url_prefixes": [
+    "https://support.heimdalsecurity.com/hc/en-us/sections/201725849-Releases",
+    "https://support.heimdalsecurity.com/hc/en-us/articles/"
+  ],
+  "run_mode": "full_run"
+}
